@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 pragma solidity >=0.6.6 <0.9.0;
 
 // Get the latest ETH/USD price from chainlink price feed
@@ -13,7 +15,7 @@ contract FundMe {
 
   // Array of addresses who deposited
   address[] public funders;
-  
+
   // Address of the owner (who deployed the contract)
   address public owner;
 
